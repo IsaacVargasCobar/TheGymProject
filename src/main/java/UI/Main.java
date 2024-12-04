@@ -28,6 +28,7 @@ import java.io.InputStreamReader;
                 eleccion = leer.readLine().trim(); // Agregamos trim()
                 switch (eleccion.toUpperCase()) { // Usamos toUpperCase() para manejar tanto "S" como "s"
 
+
                     case "1":
                         ControllerCliente controllerCliente  = new ControllerCliente(console);
                                 ViewCliente.seleccionarOpc(leer, controllerCliente);
